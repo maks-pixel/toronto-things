@@ -1,0 +1,314 @@
+/* reset browser styles */
+/* reset browser styles */
+html, body, div, span, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, img, ins, kbd, q, s, samp,small, strike, strong, sub, sup, tt, var, b, u, i, center, dl, dt, dd, ol, ul, li, fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td, article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	vertical-align: baseline;
+}
+article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1.2;
+}
+ol { 
+	padding-left: 1.4em;
+	list-style: decimal;
+}
+ul {
+	padding-left: 1.4em;
+	list-style: square;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+} 
+/* end reset browser styles */
+
+/* apply natural box-model */
+html {
+  box-sizing: border-box;
+}
+
+*, *:before, *:after {
+  box-sizing: inherit;
+}
+/* end natural box-model */
+
+/* micro clear-fix - apply to contain floats */
+.clear:after {
+  content: " ";
+  display: table;
+  clear: both;
+}
+/* micro clear-fix - apply to contain floats */
+
+nav{
+	position:fixed;
+	top:0;
+	right:0;
+	left:0;
+	text-align: right;
+	margin:0;
+	background-color:rgb(53,60,71);
+	z-index: 999;
+}
+.navigation {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color:rgb(53,60,71);
+  font-family: 'Karla', sans-serif;
+}
+/* */
+li {
+  float:left;
+  border-right:1px solid rgb(224,233,210);
+}
+
+li a {
+  display:block;
+  color: white;
+  text-align:right;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+/* hover over link */
+li a:hover {
+  background-color:#76BF8C;
+}
+/*Background*/
+body{
+	background-image:url(images/cntower.jpg);
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+	background-position: right bottom;
+	margin-top:0px;
+}
+/*fonts and sizing*/
+h1{
+	font-size:60px;
+	font-weight:700;
+	font-family:'Karla', sans-serif;
+}
+p, ol{
+	font-size: 16px;
+	font-family: 'Karla', sans-serif;
+}
+h2{
+	font-family: "Karla", sans-serif;
+}
+/*Index page code*/
+#opener{
+	background-color:rgba(53,60,71,0.4);
+	text-align: center;
+	width: 60%;
+	top:70px;
+	left:155px;
+	padding: 20px;
+	line-height: 2;
+	position: relative;
+}
+#header{
+	background-size:200px;
+	font-size: 150px;
+	background-color:rgba(118,191,140,0.6);
+	font-weight: 700;
+	text-align: center;
+	top:50px;
+	left:0;
+	width:100%;
+	font-family: 'Karla', sans-serif;
+	position: relative;
+}
+#new{
+	background-color:rgba(255,233,109,0.4);
+	text-align: center;
+	width:60%;
+	top:70px;
+	left:155px;
+	padding: 20px;
+	line-height: 2;
+	position: relative;
+}
+
+/*winter page code*/
+#winter{
+	background-color:rgba(124,207,255,0.4);
+	text-align: center;
+	width: 60%;
+	top:70px;
+	left:155px;
+	padding: 20px;
+	line-height: 2;
+	position: relative;
+}
+#header_w{
+	background-size:200px;
+	font-size: 150px;
+	background-color:rgba(124,207,255,0.6);
+	font-weight: 700;
+	text-align: center;
+	top:50px;
+	left:0;
+	width:100%;
+	font-family: 'Karla', sans-serif;
+	position: relative;
+}
+
+#list_w{
+	list-style: none;
+	list-style-image: url(images/winter/snow.jpg);
+	text-align: left;
+	text-decoration: underline;
+	border:0;
+}
+
+/*summer page code*/
+#summer{
+	background-color:rgba(255,233,109,0.4);
+	text-align: center;
+	width:60%;
+	top:70px;
+	left:155px;
+	padding: 20px;
+	line-height: 2;
+	position: relative;
+}
+#header_s{
+	background-size:200px;
+	font-size: 150px;
+	background-color:rgba(255,233,109,0.6);
+	font-weight: 700;
+	text-align: center;
+	top:50px;
+	left:0;
+	width:100%;
+	padding-top:2px;
+	font-family: 'Karla', sans-serif;
+	position: relative;
+}
+#list_s{
+	list-style: none;
+	list-style-image: url(images/summer/sun.jpg); 
+	text-align: left;
+	text-decoration: underline;
+	border:0;
+}
+#tips{
+	font-weight:700;
+}
+/*All year page code*/
+#allyear{
+	background-color:rgba(118,191,140,0.6);
+	text-align: center;
+	width:60%;
+	top:70px;
+	left:155px;
+	padding: 20px;
+	line-height: 2;
+	position: relative;
+}
+#header_a{
+	background-size:200px;
+	font-size: 150px;
+	background-color:rgba(118,191,140,0.6);
+	font-weight: 700;
+	text-align: center;
+	top:50px;
+	left:0;
+	width:100%;
+	padding-top:2px;
+	font-family: 'Karla', sans-serif;
+	position: relative;
+}
+#list_a{
+	list-style: none;
+	list-style-image: url(images/allyear/star.jpg); 
+	text-align: left;
+	text-decoration: underline;
+	border:0;}
+
+#contacts{
+	background-color:rgba(53,60,71,0.4);
+	text-align: center;
+	width: 60%;
+	top:70px;
+	left:155px;
+	padding: 20px;
+	line-height: 2;
+	position: relative;
+}
+
+/*side bar*/
+#sidebar{
+	height:auto; 
+ 	width: 300px; 
+ 	position: fixed; 
+ 	z-index: 1; 
+ 	top:250px ; 
+ 	right:15px ;
+ 	background-color:rgba(53,60,71,0.6);
+ 	overflow-x: hidden;  	
+ 	padding-top: 20px;
+ 	font-family: "Karla", sans-serif;
+}
+
+#sidebar a{   
+	padding: 6px 8px 6px 16px;
+  	text-decoration: none;
+  	font-size: 15px;
+  	color: white;
+  	display:block ;
+  	border-bottom:1px solid rgb(224,233,210);
+}
+#sidebar a:hover{
+	background-color: rgb(53,60,71);
+	color:#76BF8C;
+}
+@media screen and (max-height: 450px) {
+  #sidebar {padding-top: 15px;}
+  #sidebar a {font-size: 18px;}
+}
+.sidetitle{
+	text-align: center;
+}
+/*contacts side bar*/
+#sidebar_c{
+	height:auto; 
+ 	width: 60%; 
+ 	position: fixed; 
+ 	z-index: 1; 
+ 	top:250px ;
+ 	left:155px;
+ 	background-color:rgba(53,60,71,0.6);
+ 	overflow-x: hidden;  	
+ 	padding-top: 20px;
+ 	font-family: "Karla", sans-serif;
+ 	text-align: center;
+ 	font-size: 20px;
+}
+
+#sidebar_c a{   
+	padding: 6px 8px 6px 16px;
+  	text-decoration: none;
+  	font-size: 25px;
+  	color: white;
+  	display:block ;
+  	border-bottom:1px solid rgb(224,233,210);
+}
+#sidebar_c a:hover{
+	background-color: rgb(53,60,71);
+	color:#76BF8C;
+}
+@media screen and (max-height: 450px) {
+  #sidebar_c {padding-top: 15px;}
+  #sidebar_c a {font-size: 18px;}
+}
+
